@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <title>集合包裹</title>
+    <script type="text/javascript" src="index.js"></script>
+    <script type="text/javascript" src="jquery-1.11.1.min.js"></script>
+    <!--<script src="https://cdn.bootcss.com/jquery//2.0.2/jquery.min.js" type="text/javascript"></script>-->
+    <script type="text/javascript" src="jquery.growl.js"></script>
+    <link href="jquery.growl.css" rel="stylesheet" type="text/css" />
+
+</head>
+<h2>集包</h2>
+<div style=" margin-top:11px; margin-left:181px" id="0">
+    <span>65#下包口</span>
+   <!-- <input type="text" name="export" id="export" value="">
+    <span>状态（0：封包；1：集包）：</span>
+    <input type="text" name="status" id="status" value="1">-->
+    <input type="button" name="up" id="pack1_open" value="集包" onclick="javascript:{this.disabled =true;pack1_close.disabled=false;pack(0,1);}">
+    <input type="button" name="up" id="pack1_close" disabled = true value="封包" onclick="javascript:{this.disabled =true;pack1_open.disabled=false;pack(0,0);}">
+</div>
+<div style=" margin-top:11px; margin-left:181px" id="1">
+    <span>66#下包口</span>
+    <!-- <input type="text" name="export" id="export" value="">
+     <span>状态（0：封包；1：集包）：</span>
+     <input type="text" name="status" id="status" value="1">-->
+    <input type="button" name="up" id="pack2_open" value="集包" onclick="javascript:{this.disabled =true;pack2_close.disabled=false;pack(1,1);}">
+    <input type="button" name="up" id="pack2_close" disabled = true value="封包" onclick="javascript:{this.disabled =true;pack2_open.disabled=false;pack(1,0);}">
+</div>
+<div style=" margin-top:11px; margin-left:181px" id="2">
+    <span>67#下包口</span>
+    <!-- <input type="text" name="export" id="export" value="">
+     <span>状态（0：封包；1：集包）：</span>
+     <input type="text" name="status" id="status" value="1">-->
+    <input type="button" name="up" id="pack3_open" value="集包" onclick="javascript:{this.disabled =true;pack3_close.disabled=false;pack(2,1);}">
+    <input type="button" name="up" id="pack3_close" disabled = true value="封包" onclick="javascript:{this.disabled =true;pack3_open.disabled=false;pack(2,0);}">
+</div>
+<div style=" margin-top:11px; margin-left:181px" id="3">
+    <span>68#下包口</span>
+    <!-- <input type="text" name="export" id="export" value="">
+     <span>状态（0：封包；1：集包）：</span>
+     <input type="text" name="status" id="status" value="1">-->
+    <input type="button" name="up" id="pack4_open" value="集包" onclick="javascript:{this.disabled =true;pack4_close.disabled=false;pack(3,1);}">
+    <input type="button" name="up" id="pack4_close" disabled = true value="封包" onclick="javascript:{this.disabled =true;pack4_open.disabled=false;pack(3,0);}">
+</div>
+
+
+</body>
+</html>
